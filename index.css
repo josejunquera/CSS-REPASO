@@ -1,0 +1,151 @@
+body {
+  font-family: "Oswald", sans-serif;
+  margin: 0px;
+}
+
+nav {
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 25px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+.current {
+  color: blueviolet;
+}
+
+header {
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+nav a {
+  padding: 5px;
+}
+
+#animales:hover:before {
+  content: "🐕";
+  margin-left: -20px;
+  margin-right: 10px;
+}
+
+#musica:hover:before {
+  content: "🎹";
+  margin-left: -20px;
+  margin-right: 10px;
+}
+
+#comida:hover:before {
+  content: "🍔";
+  margin-left: -20px;
+  margin-right: 10px;
+}
+
+.contenedor {
+  display: flex;
+  flex-grow: 1;
+}
+
+.aside {
+  background-color: rgb(158, 157, 157);
+  padding: 25px;
+  flex-grow: 0;
+  text-align: center;
+}
+
+#imgautor {
+  border-radius: 20px;
+}
+
+.contenido {
+  background-color: rgb(0, 0, 0);
+  padding-left: 100px;
+  padding-top: 25px;
+  padding-bottom: 50px;
+  flex-grow: 2;
+  color: white;
+}
+
+table,
+th,
+td {
+  border: 1px solid rgb(255, 255, 255);
+}
+
+.dias {
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+
+.horas {
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: rgb(66, 35, 204);
+  color: #fff;
+}
+
+tbody tr:nth-child(even) {
+  background-color: rgb(35, 204, 100);
+  color: #fff;
+}
+
+footer {
+  background-color: rgb(66, 35, 204);
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+  text-decoration: underline;
+  color: white;
+  padding: 5px;
+}
+
+footer a:focus {
+  color: rgb(1, 0, 2);
+}
+
+.required {
+  border: 3px solid red;
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+  margin-right: 80px;
+}
+
+form input {
+  margin-left: 10px;
+}
+form label {
+  padding: 8px;
+}
+
+form button {
+  margin-top: 10px;
+  height: 25px;
+  border-radius: 10px;
+  background-image: linear-gradient(
+    to right,
+    #e01010 0%,
+    #eb12d9 51%,
+    #f1cf0c 100%
+  );
+}
+
+form button:active {
+  background-image: linear-gradient(
+    to right,
+    #adb81c 0%,
+    #3912c7 51%,
+    #e90707 100%
+  );
+}
